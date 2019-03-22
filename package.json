@@ -1,0 +1,41 @@
+{
+  "name": "console-title-cli",
+  "version": "1.0.0",
+  "description": "CLI to set console title on Windows, Linux, or OS/X in a cross-platform way",
+  "main": "index.js",
+  "bin": {
+    "set-title": "bin/set-title.js"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "npm-test": "set-title test123 && node ./scripts/sleep.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Byt3C0d3/node-console-title-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "windows",
+    "linux",
+    "mac",
+    "osx",
+    "console",
+    "title"
+  ],
+  "author": "Byt3C0d3",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Byt3C0d3/node-console-title-cli/issues"
+  },
+  "homepage": "https://github.com/Byt3C0d3/node-console-title-cli#readme",
+  "dependencies": {
+    "capture-stdout": "^1.0.0",
+    "yargs": "^11.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.1.1",
+    "sinon": "^4.5.0"
+  }
+}
