@@ -1,6 +1,6 @@
 {
   "name": "console-title-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI to set console title on Windows, Linux, or OS/X in a cross-platform way",
   "main": "index.js",
   "bin": {
